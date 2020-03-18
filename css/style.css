@@ -788,68 +788,64 @@ nav ul li a.current{
   to {color: #845007;}
 }
 
-
 /* Contact Map/Form */
-.contact_container_outer{
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(1, auto);
-  margin-right: 25px;
-}
-.contact_form_header_b{
-  font-size: 25px;
-}
-.contact_container{
-  margin-left:  25px;
-  vertical-align: middle;
-  border: 5px solid #50C7C7;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-sizing: border-box;
-  padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.pure-form,.pure-form-stacked{
-  line-height: 25px;
-  height:500px;
-  width:500px;
-  grid-column: 1;
-  grid-row: 1;
-  margin: 10px;
-}
-.pure-button, .pure-button-primary{
-  background-color: #dddddd;
-  color: #000000;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-.pure-button:hover{
-  color: #ffffff;
-  background-color: #818ba1
+form {
+  display:inline-block;
+  width:40%;
+  margin:10px 10px;
+  background-color: white;
+  border: solid 4px #3a4660;
+  border-radius: 10px;
 }
 
-.pure-button:active{
-  background-color: #3a4660;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+form legend{
+width:60%;
+margin:5px auto;
+text-align: center;
 }
-.mapouter{
-  margin: auto;
-  position:relative;
-  text-align:right;
-  height:500px;
-  width:524px;
-  grid-column: 2;
-  grid-row: 1;
+form legend{
+color: #3a4660;
 }
-.gmap_canvas{
-  grid-column: 2;
-  grid-row: 1;
-  overflow:hidden;
-  background:none!important;
-  height:500px;
-  width:524px;
+
+form label{
+display:inline-block;
+width:40%;
+line-height: 30px;
+font-size: 20px;
+margin-left:5px;
+}
+form div{
+display:inline-block;
+width: 100%;
+margin-bottom: 10px;
+}
+form input{
+display:inline-block;
+border: solid 2px rgb(196, 196, 196);
+border-radius: 4px;
+width:50%;
+margin:0 5px;
+height:35px;
+line-height: 30px;
+}
+form textarea{
+display:inline-block;
+width:50%;
+padding:none;
+margin:0 5px;
+}
+.map{
+  display:inline-block;
+  width:55%;
+  margin:0 auto;
+  border:solid 2px #3a4660;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.map iframe{
+  width:100%;
+  height:400px;
 }
 
 /* Resume */
