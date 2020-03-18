@@ -765,7 +765,7 @@ nav ul li a.current{
   text-align: center;
   }
 @keyframes gallery{
-  from {color: #ed8a63;}
+  from {color: #3a4660;}
   to {color: #845007;}
 }
 
@@ -784,7 +784,7 @@ nav ul li a.current{
   text-align: center;
   }
 @keyframes gallery{
-  from {color: #ed8a63;}
+  from {color: #3a4660;}
   to {color: #845007;}
 }
 
