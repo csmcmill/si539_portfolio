@@ -319,7 +319,7 @@ nav ul li a{
 form {
   width:90%;
   margin:20px auto;
-  background-color: #3a4660;
+  background-color: #ffffff;
   border: solid 2px #3a4660;
   border-radius: 10px;
 }
@@ -362,7 +362,6 @@ form textarea{
   height:150px;
   border: 2px solid #ffffff;
   border-radius: 4px;
-
   resize: none;
 }
 form textarea:focus{
