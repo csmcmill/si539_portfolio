@@ -316,31 +316,57 @@ nav ul li a{
 }
 
 /* Contact Map/Form */
-.contact_container_outer{
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  grid-template-rows: repeat(1, auto);
+form {
+  width:90%;
+  margin:20px auto;
+  background-color: #3a4660;
+  border: solid 2px #3a4660;
+  border-radius: 10px;
 }
-.contact_form_header_b{
-  font-size: 25px;
+form legend h1{
+  color:#3a4660;
 }
-.contact_container{
-  vertical-align: middle;
-  border: 5px solid #3a4660;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-sizing: border-box;
-  padding: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+form legend{
+  width:60%;
+  margin:5px auto;
+  text-align: center;
 }
-.pure-form,.pure-form-stacked{
-  line-height: 25px;
-  height:500px;
-  width:250px;
-  grid-column: 1;
-  grid-row: 1;
-  margin: 10px;
+form label{
+  display:inline-block;
+  width:40%;
+  line-height: 30px;
+  font-size: 20px;
+  width:95%;
+  margin-left:5px;
+}
+form div{
+    display:inline-block;
+    width: 100%;
+}
+form input:focus{
+  border: solid 2px #3a4660;
+}
+form input{
+  display:block;
+  border: solid 2px #3a4660;
+  border-radius: 4px;
+  width:95%;
+  margin:0 5px;
+  height:35px;
+  line-height: 30px;
+  resize: vertical;
+}
+form textarea{
+  width:95%;
+  margin:0 5px;
+  height:150px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+
+  resize: none;
+}
+form textarea:focus{
+  border: solid 2px #3a4660;
 }
 .pure-button, .pure-button-primary{
   background-color: #dddddd;
@@ -352,24 +378,22 @@ nav ul li a{
   color: #ffffff;
   background-color: #818ba1
 }
-
 .pure-button:active{
   background-color: #3a4660;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 .map{
-	width:80%;
-	margin:0 auto;
-	border-radius: 2px;
-	overflow: hidden;
+  overflow: hidden;
+  width:80%;
+  margin:0 auto;
+  border:solid 2px #3a4660;
+  border-radius: 2px;
 }
-
 .map iframe{
-	width:100%;
-	height:300px;
+  width:100%;
+  height:300px;
 }
-
 .retroshadow, .portfolio_entry_title{
   color: #3a4660;
 
@@ -507,25 +531,26 @@ nav ul li a.current{
   text-decoration-color: #50C7C7;
 }
 /* Contact Map/Form */
-/* .contact_container{
-  width: auto;
-  display: block;
+form{
+  display:inline-block;
+  width:40%;
+  margin:10px 10px;
+  background-color: #ffffff;
+  border: solid 4px #3a4660;
+  border-radius: 10px;
 }
-.pure-form-stacked{
-  border: 5px solid #50C7C7;
-  background-color: #ed8a63;
-  border-radius: 8px;
-  box-sizing: border-box;
-  margin: 5px;
-  padding: 5px;
+.map{
+  display:inline-block;
+  width:50%;
+  margin:0 auto;
+  border:solid 2px #3a4660;
+  border-radius: 2px;
+  overflow: hidden;
 }
-.pure-button, .pure-button-primary{
-  background-color: #dddddd;
+.map iframe{
+  width:100%;
+  height:400px;
 }
-#gmap_canvas iframe{
-  width:524px; 
-  height:500px;
-} */
 
 /* Slideshow*/ 
 .slides {
