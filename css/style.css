@@ -49,6 +49,11 @@ footer{
 a:visited { 
   text-decoration: none;
 }
+.resume_header_design{
+  font-family: Sacramento;
+  font-size: 80px;
+  color: #3a4660;
+}
 
   /* Linkedin */
 .fa-envelope, .fa-linkedin-square{
@@ -650,6 +655,11 @@ input#img-4:checked ~ .nav-dots label#img-dot-4,
 input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
   background: rgba(0, 0, 0, 0.8);
+}
+.resume_header_design{
+  font-family: Sacramento;
+  font-size: 80px;
+  color: #3a4660;
 }
 }
 
