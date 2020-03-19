@@ -459,6 +459,36 @@ form textarea:focus{
   margin-bottom: 25px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1em;
+  margin-bottom: 10px;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+.location-image img{
+  width: 500px;
+  height: 369px;
+}
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image img {
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-listing:hover{
+  opacity: 1;
+}
+
 @media (max-width:629px) {
   #optionalstuff{
     display: none;
